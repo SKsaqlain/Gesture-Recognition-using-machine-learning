@@ -21,6 +21,11 @@ But in this case it is used for classification purpose. SVMs are based on the id
  
  ![](Final_Sample_output.gif)
  </p>
+ 
+ <li>CNN</li>
+ <p>
+  CNNs, like neural networks, are made up of neurons with learnable weights and biases. Each neuron receives several inputs, takes a weighted sum over them, pass it through an activation function and responds with an output. CNNs have wide applications in image and video recognition. Unlike neural networks, where the input is a vector, in DNN the input is an entire image that is a matrix where each convolutional layer is capable of learning a specific feature of the image. A CNN model was trained with 2 layers and ReLU as an activation function, the model was trained on the  MNIST dataset which on validating gave an accuracy of around ~95% but the model performed badly on real time data as compared to the DNN model.
+ </p>
 </ul>
 
 ## Usage
