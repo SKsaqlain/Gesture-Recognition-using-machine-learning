@@ -28,7 +28,17 @@ But in this case it is used for classification purpose. SVMs are based on the id
  </p>
 </ul>
 
-## Usage
+
+
+## Requirements
+<ul type=1>
+    <li>Python 3.6.5</li>
+    <li>OpenCV 3</li>
+    <li>Tensorflow 1.8.0 CPU support only</li> 
+ </ul>
+ 
+ 
+ ## Usage
 To clone this repository.
 ```
 $git clone https://github.com/SKsaqlain/Gesture-Recognition-using-machine-learning GRUML
@@ -37,11 +47,18 @@ Cd to  the Directory
 ```
 $cd GRUML
 ```
-
-## Requirements
-<ul type=1>
-    <li>Python 3.6.5</li>
-    <li>OpenCV 3</li>
-    <li>Tensorflow 1.8.0 CPU support only</li> 
- <ul>
-    
+To run the SVM model run the below commands, the sample output of shown in the Working section
+```
+$cd SVM MODEL
+$python detect_SVM.py
+```
+To run the DNN model run the below commands form the parent directory i.e.,GRUML
+```
+$cd DNN model
+$python DNN_FINAL_TEST_ZOOM_2.py
+```
+To run a pretrained model run the below command from the parent directory i.e.,GRUML
+```
+$cd TRAINED FINAL MODEL
+$python model_save.py
+```
