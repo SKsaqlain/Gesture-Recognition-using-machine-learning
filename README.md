@@ -5,10 +5,19 @@
 <ul type=1>
  <li>SVM</li> 
 <p>A Support Vector Machine (SVM) is a supervised machine learning algorithm that can be employed for both classification and regression purposes.
-But in this case it is used for classification purpose. SVMs are based on the idea of finding a hyperplane that best divides a dataset into multiple clases. The SVM model was trained using hand digit image dataset which was manually generated and processed, the dataset consists of 5 classes totally and each class consists of approximately ~20 images which was processed and resized into 25x25 dimensional image.<br/>
+But in this case it is used for classification purpose. SVMs are based on the idea of finding a hyperplane that best divides a dataset into multiple clases. The SVM model was trained using hand digit images which was manually generated and processed, the dataset consists of 5 classes totally and each class consists of approximately ~20 images which was processed and resized into 25x25 dimensional image.<br/>
  RGB values of the hand were used to detect hand in the frame, once the hand was detected contours were construted on the detected region to get the dimensions of the detected region so that the actual region can be extracted from the frame, once the region was extracted, the region of image was converted to binary after applying a threashold and then the entire region was raveled so that it becomes a single vector to be fed into the SVM model. The SVM model predicts the label for the input vector. The below gif gives a sample of the SVM models' ouput.
  
  ![](SVM_GIF.gif)
+ </p>
+ 
+ <li>DNN</li>
+ <p>
+ Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text or time series, must be translated. A DNN is an abstraction for Neural Networks such that it has a input layer,output layer and multiple hidden layers.
+ <br/>
+  The DNN used in the model consists of total of 4 layers with ReLU as the activation function and softmax as the output function, the dataset that was used to train the model was MNIST dataset with 10 epochs and batch size to be 100 gave a corresponding accuracy of around ~97% ,the gestures corresponds to one of the digit pattern which on further classification was used to zoom into a region of an image.<br/>
+ The corresponding digits/labels are used for the following purpose on correct identification.
+ Digit 0 refers to the zoom in to the first quadrant, Digit 1 refers to zoom in to the second quadrant, Digit 2 refers to zoom in to the third quadrant, Digit 3 refers to zoom into a 4th quadrant and Digit 4 corresponds to move out to the original image. The gif showed below shows the sample output, press 'n' to clear the gesture area, press 'q' to predict and zoom in, press 'q' multiple times to quit.
  </p>
 </ul>
 
