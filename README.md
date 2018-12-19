@@ -39,7 +39,7 @@ But in this case it is used for classification purpose. SVMs are based on the id
  
  
  ## Usage
-The project was carried out on windows OS.<br/>To clone this repository.
+To clone this repository.
 ```
 $git clone https://github.com/SKsaqlain/Gesture-Recognition-using-machine-learning GRUML
 ```
