@@ -18,6 +18,8 @@ But in this case it is used for classification purpose. SVMs are based on the id
   The DNN used in the model consists of total of 4 layers with ReLU as the activation function and softmax as the output function, the dataset that was used to train the model was MNIST dataset with 10 epochs and batch size to be 100 gave a corresponding accuracy of around ~97% ,the gestures corresponds to one of the digit pattern which on further classification was used to zoom into a region of an image.<br/>
  The corresponding digits/labels are used for the following purpose on correct identification.
  Digit 0 refers to the zoom in to the first quadrant, Digit 1 refers to zoom in to the second quadrant, Digit 2 refers to zoom in to the third quadrant, Digit 3 refers to zoom into a 4th quadrant and Digit 4 corresponds to move out to the original image. The gif showed below shows the sample output, press 'n' to clear the gesture area, press 'q' to predict and zoom in, press 'q' multiple times to quit.
+ 
+ ![](Final_Sample_output.gif)
  </p>
 </ul>
 
