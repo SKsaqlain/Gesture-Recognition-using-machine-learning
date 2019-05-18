@@ -69,3 +69,5 @@ To run the code execute the below command from the parent directory.
 $cd SIMPLE_APPLICATION
 $python draw_1.py
 ```
+## License
+This project is licensed under the [MIT License](LICENSE.md)
