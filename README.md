@@ -70,4 +70,4 @@ $cd SIMPLE_APPLICATION
 $python draw_1.py
 ```
 ## License
-This project is licensed under the [MIT License](LICENSE.md)
+This project is licensed under the [MIT License](https://github.com/SKsaqlain/Gesture-Recognition-using-machine-learning/blob/master/LICENSE)
